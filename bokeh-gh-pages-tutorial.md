@@ -90,8 +90,28 @@ output_file("plot.html")
 save(p)
 ```
 
+### Part 2. Publishing the plot with GitHub Pages
 
+If you don't have a GitHub account, it's time to create one!
 
-```python
+Once you're logged in, create a new repository. Choose any name, make the repository **Public**, check **Add a README file**. Other options don't matter now.
 
+Click **Settings**, then click **Pages** at the bottom of the sidebar. 
+
+Choose the branch **main**, it'll be the source for GitHub Pages. Click **Save**. You will see a link to your new empty website.
+
+Upload the `plot.html` file that you downloaded previously, by clicking **Add file** --> **Upload files**. 
+
+Finally, let's create an index page. Click **Add file** --> **Create new file**, type `index.md` as the file name.
+
+Let's simply add a header and a hyperlink:
+
+```markdown
+# My Dashboard
+
+[Production of coal in Canada](plot.html)
 ```
+
+Click **Commit new file**.
+
+Now, wait for a minute or so and open your webpage to see the changes.
