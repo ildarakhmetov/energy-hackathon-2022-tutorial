@@ -21,7 +21,7 @@ from bokeh.models import ColumnDataSource
 from bokeh.models import HoverTool
 ```
 
-First, let's read the data. We'll be using the [Data on Energy by Our World in Data](https://github.com/owid/energy-data) dataset.
+Next, let's read the data. We'll be using the [Data on Energy by Our World in Data](https://github.com/owid/energy-data) dataset.
 
 ```python
 df = pd.read_csv('https://nyc3.digitaloceanspaces.com/owid-public/data/energy/owid-energy-data.csv')
