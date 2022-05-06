@@ -109,7 +109,7 @@ Once you're logged in, create a new repository. Choose any name, make the reposi
 
 Click **Settings**, then click **Pages** at the bottom of the sidebar. 
 
-Choose the branch **main**, it'll be the source for GitHub Pages. Click **Save**. You will see a link to your new empty website.
+Choose the branch **main**, it'll be the source for GitHub Pages. Click **Save**. You will see a link to your new empty website. If you want to customize your website, you can choose a theme (click **Choose a theme** under the **There Chooser** section).
 
 Upload the `plot.html` file that you downloaded previously, by clicking **Add file** --> **Upload files**. 
 
