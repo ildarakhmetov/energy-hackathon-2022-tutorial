@@ -10,6 +10,17 @@ Open [Google Colab](https://colab.research.google.com/) and create a new noteboo
 
 Alternatively, feel free to use any other Jupyter Notebook platform of your choice. In this case, make sure that you have `numpy`, `pandas` and `bokeh` packages installed.
 
+First, let's import the modules we'll need.
+
+```python
+import pandas as pd
+from bokeh.io import output_notebook, show, reset_output, output_file, save
+from bokeh.plotting import figure
+from bokeh.models import BoxAnnotation
+from bokeh.models import ColumnDataSource
+from bokeh.models import HoverTool
+```
+
 First, let's read the data. We'll be using the [Data on Energy by Our World in Data](https://github.com/owid/energy-data) dataset.
 
 ```python
