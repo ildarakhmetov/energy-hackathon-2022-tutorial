@@ -6,7 +6,7 @@
 
 ### Part 1. Using Bokeh to draw and save an interactive chart
 
-Open [Google Colab](https://colab.research.google.com/) and create a new notebook.
+Open the [ISAIC](https://www.isaic.ca/) JupyterHub or [Google Colab](https://colab.research.google.com/) and create a new notebook.
 
 Alternatively, feel free to use any other Jupyter Notebook platform of your choice. In this case, make sure that you have `numpy`, `pandas` and `bokeh` packages installed.
 
